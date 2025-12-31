@@ -97,7 +97,7 @@ TETROMINO_SHAPES: Dict[TetrominoType, List[List[Tuple[int, int]]]] = {
         [(0, 0), (0, -1), (0, 1), (-1, 0)],  # 0 degrees
         [(0, 0), (-1, 0), (1, 0), (0, 1)],   # 90 degrees
         [(0, 0), (0, -1), (0, 1), (1, 0)],   # 180 degrees
-        [(0, 0), (-1, 0), (1, 0), (0, -1)]   # 290 degrees
+        [(0, 0), (-1, 0), (1, 0), (0, -1)]   # 270 degrees
     ],
     TetrominoType.Z: [
         [(0, 0), (0, 1), (-1, -1), (-1, 0)], # 0 degrees
