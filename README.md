@@ -31,18 +31,18 @@ This project creates an engaging, visually appealing Tetris experience that runs
 
 ## Installation
 
-This project uses [rye](https://rye-up.com/) for dependency management.
+This project uses [uv](https://docs.astral.sh/uv/) for dependency management.
 
 ```bash
 # Clone the repository
 git clone <repository-url>
 cd textual-tetris-game
 
-# Set up the project with rye
-rye sync
+# Set up the project with uv
+uv sync
 
 # Run the game
-python -m textual_tetris_game
+uv run python -m textual_tetris_game
 ```
 
 ## Development
