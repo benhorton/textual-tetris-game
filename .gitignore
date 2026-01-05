@@ -6,6 +6,7 @@ dist/
 wheels/
 *.egg-info
 *.lock
+.DS_Store
 
 # venv
 .venv
